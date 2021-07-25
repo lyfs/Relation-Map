@@ -1,0 +1,33 @@
+{
+    "name": "realationMap",
+    "version": "1.0.0",
+    "description": "在日常的开发工作中，当项目逐渐膨胀，模块之间的引用关系可能变得比较复杂，而编码过程中开发很难关注到每一个模块的引用是否合理，relation Map是这样的一款模块引用可视化工具，可以遍历您的项目并且抽取文件的引用关系，以拓扑的形式呈现出来。",
+    "main": "index.js",
+    "dependencies": {
+        "@babel/core": "^7.14.6",
+        "@babel/plugin-syntax-jsx": "^7.14.5",
+        "@babel/preset-react": "^7.14.5",
+        "babel-loader": "^8.2.2",
+        "html-webpack-plugin": "^5.3.2",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "webpack": "^5.44.0",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lyfs/realationMap.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lyfs/realationMap/issues"
+    },
+    "homepage": "https://github.com/lyfs/realationMap#readme"
+}

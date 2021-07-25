@@ -6,7 +6,7 @@ const childProcess = require('child_process');
 const { actionsMap } = require('./controller');
 
 const DIR_NAME = path.join(__dirname, '../');
-const WEB_DIR = path.join(DIR_NAME, '/web');
+const WEB_DIR = path.join(DIR_NAME, '/web/dist');
 
 //映射到web路径
 const webFileResolve = (filePath) => {
