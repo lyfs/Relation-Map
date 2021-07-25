@@ -1,2 +1,27 @@
-# realationMap
-a tool who can help you check your pro relationship
+# Relation Map
+在日常的开发工作中，当项目逐渐膨胀，模块之间的引用关系可能变得比较复杂，而编码过程中开发很难关注到每一个模块的引用是否合理，relation Map是这样的一款模块引用可视化工具，可以遍历您的项目并且抽取文件的引用关系，以拓扑的形式呈现出来。
+
+
+
+# Plan
+
+长期计划支持JavaScript、Java、Python、C++等语言项目的工程可视化，并适配对应的引用语法，甚至可以支持ER、IR、DR等路由节点检查与链接。
+
+## Stage 1
+
+1、支持ES6 Module引用语法
+
+2、支持CommonJS引用语法
+
+3、支持AMD、CMD引用语法
+
+4、支持class语法
+
+5、支持以类图显示
+
+6、支持配置忽略文件、文件夹、语法
+
+
+
+
+
